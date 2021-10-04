@@ -1,9 +1,5 @@
 <template>
   <Title :text="contactsLabel" />
-  <div v-if="phoneNumber" class="contact-line">
-    <img src="@/assets/phone.svg" />
-    <Paragraph class="contact" :text="phoneNumber" />
-  </div>
   <div v-if="email" class="contact-line">
     <img src="@/assets/email.svg" />
     <Paragraph class="contact" :text="email" />
@@ -11,6 +7,14 @@
   <div v-if="email" class="contact-line">
     <img src="@/assets/linkedin.svg" />
     <Paragraph class="contact" :text="linkedIn" />
+  </div>
+  <div v-if="email" class="contact-line">
+    <img src="@/assets/telegram.png" width="20" height="20"/>
+    <Paragraph class="contact" :text="telegram" />
+  </div>
+  <div v-if="email" class="contact-line">
+    <img src="@/assets/github.png" width="20" height="20"/>
+    <Paragraph class="contact" :text="github" />
   </div>
 </template>
 
@@ -46,6 +50,14 @@ export default {
 
     linkedIn() {
       return this.contacts.linkedIn;
+    },
+
+    telegram() {
+      return this.contacts.telegram;
+    },
+
+    github() {
+      return this.contacts.github;
     },
   },
 };
