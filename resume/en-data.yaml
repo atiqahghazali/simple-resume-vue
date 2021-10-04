@@ -1,15 +1,17 @@
 lang: en
 
 name:
-  first: Thomas
-  last: Shelby
+  first: Atiqah
+  last: Ghazali
 
-position: Peaky Blinder
+position: Software Engineer
 
 contacts:
-  phone: 8800XXXXXXX
-  email: thomashelby@gmail.com
-  linkedIn: thomashelby
+  phone: +601160979344
+  email: atiqahghazali09@gmail.com
+  linkedIn: Atiqah Ghazali
+  telegram: atiqah
+  github: atiqahghazali
 
 profile: Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque fugit suscipit, quidem velit, laboriosam mollitia ducimus animi maxime, libero perspiciatis architecto. Sint magnam numquam tenetur temporibus ab cum omnis ipsum!
 
@@ -22,20 +24,15 @@ skills:
 - "Skill #6"
 
 experience:
-- workPosition: Work position
-  workPeriod: 2019 - 2021
-  companyName: Company name
+- workPosition: Software Engineer
+  workPeriod: 2021 - Present
+  companyName: Looka MY
   description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum omnis iste non soluta, fugit sequi doloribus eos nesciunt distinctio nihil ea labore dolorum? Obcaecati ipsa dolorem consequatur, sapiente illo ut?
 
-- workPosition: Work position
-  workPeriod: 2017 - 2019
-  companyName: Company name
+- workPosition: Web Developer (Intern)
+  workPeriod: 2020 - 2021
+  companyName: ILP Kepala Batas
   description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus at, veritatis voluptatum esse dolorum aliquid saepe quam animi ipsa? Tempora quod cum repudiandae possimus? Ex labore illum alias ipsum totam.
-
-- workPosition: Work position
-  workPeriod: 2015 - 2017
-  companyName: Company name
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex ea temporibus ipsa harum. Cumque earum minus debitis doloribus! Nesciunt animi atque ad. Maxime dolor expedita, veritatis aspernatur nisi velit asperiores.
 
 education:
 - degreeTitle: Degree title
